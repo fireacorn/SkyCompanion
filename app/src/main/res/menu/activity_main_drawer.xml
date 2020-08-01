@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_basics"
+            android:icon="@drawable/moth_hair"
+            android:title="@string/menu_basics" />
+        <item
+            android:id="@+id/nav_spirits"
+            android:icon="@drawable/sky_wave"
+            android:title="@string/menu_spirits" />
+        <item
+            android:id="@+id/nav_wls"
+            android:icon="@drawable/give_light"
+            android:title="@string/menu_wl" />
+        <item
+            android:id="@+id/nav_candles"
+            android:title="@string/menu_cr" />
+    </group>
+</menu>

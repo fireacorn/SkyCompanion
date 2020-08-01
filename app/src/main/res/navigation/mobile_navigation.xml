@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_basics">
+
+    <fragment
+        android:id="@+id/nav_basics"
+        android:name="com.fireacorn.skycompanion.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/basics_fragment" />
+
+    <fragment
+        android:id="@+id/nav_spirits"
+        android:name="com.fireacorn.skycompanion.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/spirits_fragment" />
+
+    <fragment
+        android:id="@+id/nav_wls"
+        android:name="com.fireacorn.skycompanion.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/wls_fragment" />
+</navigation>
